@@ -1,0 +1,20 @@
+
+  name: tdhcad
+  version: 181224
+  summary: TdhCAD - vector graphics, charts
+  description: >
+    TdhCAD is a vector grpahics and charting app with raster backgrounds, 
+    layers and open database storage. It can also serve as an embedded vector graphics 
+    package for other apps.
+  grade: devel
+  confinement: devmode
+
+  parts:
+    tdhcad:
+      plugin: dump
+      source: NTFS_ssd/tdh_wx/Distribute/TdhCad_linux64.zip
+
+  apps:
+    tdhcad:
+      command: tdhcad
+  
