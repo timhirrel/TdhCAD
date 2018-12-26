@@ -12,7 +12,7 @@
   parts:
     tdhcad:
       plugin: dump
-      source: /media/tim/NTFS_ssd/tdh_wx/Distribute/TdhCad_linux64.zip
+      source: TdhCad_linux64.zip
 
   apps:
     tdhcad:
