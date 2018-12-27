@@ -16,5 +16,5 @@
 
   apps:
     tdhcad:
-      command: tdhcad
+      command: TdhCad_linux
   
