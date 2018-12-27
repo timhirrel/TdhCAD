@@ -12,7 +12,7 @@
   parts:
     tdhcad:
       plugin: dump
-      source: https://github.com/timhirrel/TdhCAD/TdhCad_linux64.zip
+      source: https://github.com/timhirrel/TdhCAD/upload/master/TdhCad_linux64.zip
 
   apps:
     tdhcad:
